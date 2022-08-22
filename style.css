@@ -75,10 +75,30 @@ body {
 }
 
 .section-a p {
+    margin-top: 30px;
     font-size: 20px;
     color: gray;
 }
 
 .section-a ul {
+    margin-top: 50px;
     display: flex;
+    text-decoration: none;
+
+
+}
+
+.section-a ul li {
+    padding: 50px 50px;
+    border: 1px solid whitesmoke;
+    margin-left: 20px;
+    list-style-type: none;
+    font-weight: 700;
+    color: gray;
+    background-color: rgb(211, 211, 211)
+}
+
+.section-a #text {
+    margin-top: 30px;
+    border: none;
 }
