@@ -98,12 +98,21 @@ body {
     background-color: #fafafa;
 }
 
+.section-a ul li:hover {
+    color: #ff5959;
+    font-weight: 700;
+    background-color: white;
+    border: 3px solid lightpink;
+}
+
 .section-a ul .one-item {
     color: #ff5959;
     font-weight: 700;
     background-color: white;
     border: 3px solid lightpink;
 }
+
+
 
 .section-a #text {
     margin-top: 50px;
@@ -126,4 +135,64 @@ body {
     background-color: salmon;
     padding: 20px 40px;
     border-radius: 7px;
+}
+
+.section-b {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.section-b h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.section-b p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: gray;
+}
+
+.section-b ul {
+    margin-top: 50px;
+    display: flex;
+    text-decoration: none;
+
+
+}
+
+.section-b ul li {
+    padding: 100px 100px;
+    border: 1px solid whitesmoke;
+    margin-left: 20px;
+    list-style-type: none;
+
+}
+
+.section-b ul li h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+.section-b ul li p {
+    color: #707070;
+}
+
+.first-item {
+    background-color: #a5e0e7;
+}
+
+.second-item {
+    background-color: #f8bdbd;
+}
+
+.third-item {
+    background-color: lightgoldenrodyellow;
 }
