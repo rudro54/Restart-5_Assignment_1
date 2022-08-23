@@ -295,9 +295,20 @@ body {
 
 .email-form {
     width: 50%;
-    height: 500px;
+    height: 300px;
     display: flex;
     margin-top: 30px;
     font-size: 20px;
     background-color: lemonchiffon;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-email {
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin-top: 40px;
 }
