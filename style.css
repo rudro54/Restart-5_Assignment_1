@@ -304,3 +304,20 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.last-part {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background-color: black;
+    height: 300px;
+}
+
+.last-part h1 {
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+}
