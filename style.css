@@ -211,3 +211,37 @@ body {
 .third-item {
     background-color: lightgoldenrodyellow;
 }
+
+.section-c {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.section-c h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.section-c ul {
+
+    margin-top: 70px;
+    display: flex;
+    text-decoration: none;
+}
+
+.section-c ul li img {
+    size: 100px;
+    padding: 100px 100px;
+    margin-left: 100px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
