@@ -168,21 +168,36 @@ body {
 }
 
 .section-b ul li {
-    padding: 100px 100px;
-    border: 1px solid whitesmoke;
+    padding: 100px 50px;
+    border: 2px solid whitesmoke;
     margin-left: 20px;
     list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.section-b ul li:hover {
+    opacity: .7;
+}
+
+.section-b ul li img {
+    size: 30px;
 
 }
 
 .section-b ul li h3 {
+    margin-top: 20px;
     font-weight: 700;
     font-size: 30px;
     color: black;
+    text-align: left;
 }
 
 .section-b ul li p {
     color: #707070;
+    text-align: left;
 }
 
 .first-item {
