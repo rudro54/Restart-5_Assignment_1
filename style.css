@@ -14,7 +14,7 @@ body {
 
 
 #top-banner {
-    background-image: url(/images/donation8.jpg);
+    background-image: url(images/donation8.jpg);
     opacity: 2;
     background-repeat: no-repeat;
     height: 50vh;
@@ -269,6 +269,13 @@ body {
     height: 300px;
     width: 300px;
 
+}
+
+.half-width ul li :hover {
+    opacity: .5;
+    border: 5px solid salmon;
+    padding: 70px 70px;
+    border-radius: 5px;
 }
 
 .get-my-update {
