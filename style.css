@@ -306,10 +306,26 @@ body {
 }
 
 
-input .text {
-    background-color: #aa9f9f;
+.email-input input[type=text] {
+    background-color: #d9d9d9;
     width: 340px;
     height: 50px;
+    border-radius: 5px;
+    display: inline;
+    margin: 0;
+
+
+}
+
+.email-input input[type=submit] {
+
+    background-color: #ff5959;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0;
+    display: inline;
+
 
 }
 
