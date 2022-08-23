@@ -313,6 +313,8 @@ body {
     border-radius: 5px;
     display: inline;
     margin: 0;
+    border: none;
+    outline: none;
 
 
 }
@@ -320,11 +322,13 @@ body {
 .email-input input[type=submit] {
 
     background-color: #ff5959;
-    height: 50px;
+    height: 52px;
     width: 100px;
     border-radius: 5px;
     margin: 0;
     display: inline;
+    border: none;
+    outline: none;
 
 
 }
