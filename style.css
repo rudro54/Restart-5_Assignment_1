@@ -222,26 +222,51 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .half-width {
     width: 50%;
-
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    margin-left: 50px;
 
 }
 
+.half-width h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 100px;
+
+}
+
+.half-width p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: gray;
+
+}
+
+
+
 .half-width ul {
 
-    margin-left: none;
+    margin-top: 50px;
     text-decoration: none;
+
 
 
 }
 
 .half-width ul li {
+    padding: 50px 50px;
+    border: 2px solid whitesmoke;
     list-style-type: none;
-    display: flex;
-    margin: 30px 30px;
-    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 300px;
 
 }
