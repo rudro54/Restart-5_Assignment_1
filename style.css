@@ -305,6 +305,14 @@ body {
     text-align: center;
 }
 
+
+input .text {
+    background-color: #aa9f9f;
+    width: 340px;
+    height: 50px;
+
+}
+
 .last-part {
     margin-top: 100px;
     display: flex;
