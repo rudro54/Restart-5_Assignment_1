@@ -270,3 +270,34 @@ body {
     width: 300px;
 
 }
+
+.get-my-update {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.get-my-update h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.get-my-update p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: gray;
+}
+
+.email-form {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: lemonchiffon;
+}
